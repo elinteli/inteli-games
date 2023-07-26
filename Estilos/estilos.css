@@ -122,6 +122,14 @@
     background-color: #f3f3f3;
     transform: scale(1.02);
 }
+.footer {
+    background-color: #161a38;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
 #anotador-truco-foto {
     background-image: url('../Imagenes/foto-anotador-truco.png');
 }
