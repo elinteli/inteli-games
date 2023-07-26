@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans&family=Nunito:wght@400;700&display=swap');
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    box-shadow: 0 0 10px #0007;
+    position: fixed;
+    z-index: 5000;
+    background-color: #fff;
+    top: 0;
+    align-items: center; /*Alinear Verticalmente*/
+    font-family: 'Nunito', sans-serif;
+}
+.header__h1 {
+    margin: 10px;
+}
+.header__img {
+    height: 25px;
+}
+.nav__lista {
+    display: flex;
+}
+.nav__listitem {
+    font-size: 20px;
+    list-style: none;
+    margin: 0 20px;
+}
+.nav__links {
+    text-decoration: none;
+    color: #161a38;
+}
+.nav__links:hover {
+    text-decoration: none;
+    color: #031493;
+}
+.contenido {
+    padding: 70px 0;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 10%;
+}
+.descripcion-juego {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    color: #161a38;
+}
+.descripcion-juego__titulo, .card-foto__titulo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+.card-foto__titulo {
+    margin-bottom: 20px;
+}
+.descripcion-juego__span {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.card-foto__span {
+    font-size: 20px;
+}
+.boton {
+    display: inline-block;
+    border-width: 0;
+    background-color: #031493;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 70%;
+    text-decoration: none;
+    margin: 20px 0;
+}
+.boton:hover {
+    background-color: #031493dd;
+}
+.boton:active {
+    transform: translateY(4px);
+}
+.contenido--nuevo {
+    display: flex;
+    height: 100vh;
+}
+.contenido--nuevo__video {
+    height: calc(100% - 20px);
+    margin-left: auto;
+    margin-top: 20px;
+}
+.card-foto {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #161a38;
+}
+.card-foto__foto {
+    height: 35vw;
+    width: 35vw;
+    background-size: cover;
+    border-radius: 40px;
+}
+.card-foto__descripcion, .card-foto__descripcion--izquierda {
+    width: 40vw;
+    height: 25vw;
+    box-shadow: 0 0 10px #0007;
+    border-radius: 50px;
+    position: relative;
+    left: -50px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    transition: transform .5s, background-color .5s;
+}
+.card-foto__descripcion--izquierda {
+    left: 50px;
+}
+.card-foto__descripcion:hover, .card-foto__descripcion--izquierda:hover {
+    background-color: #f3f3f3;
+    transform: scale(1.02);
+}
+#anotador-truco-foto {
+    background-image: url('../Imagenes/foto-anotador-truco.png');
+}
+#desafio-diario-foto {
+    background-image: url('../Imagenes/foto-desafio-diario.png');
+}
