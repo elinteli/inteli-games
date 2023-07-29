@@ -3,6 +3,9 @@
     background-color: #333c80;
     color: #fff;
 }
+*{
+    overflow-x: hidden;
+}
 .body {
     background-image: url('../Imagenes/embossed-diamond.png');
     background-size: 50vw;
