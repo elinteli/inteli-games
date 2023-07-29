@@ -1,15 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans&family=Nunito:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:wght@400;700&display=swap');
+*::selection {
+    background-color: #333c80;
+    color: #fff;
+}
+.body {
+    background-image: url('../Imagenes/embossed-diamond.png');
+    background-size: 50vw;
+    backdrop-filter: blur(5px);
+}
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 70px;
     display: flex;
+    align-items: center;
     box-shadow: 0 0 10px #0007;
-    position: fixed;
     z-index: 5000;
     background-color: #fff;
-    top: 0;
-    align-items: center; /*Alinear Verticalmente*/
     font-family: 'Nunito', sans-serif;
 }
 .header__h1 {
@@ -17,6 +26,9 @@
 }
 .header__img {
     height: 25px;
+}
+.nav {
+    margin-left: auto;
 }
 .nav__lista {
     display: flex;
@@ -35,9 +47,10 @@
     color: #031493;
 }
 .contenido {
-    padding: 70px 0;
+    padding: 15px 0;
     font-family: 'Noto Sans', sans-serif;
     margin: 0 10%;
+    padding-bottom: 70px;
 }
 .descripcion-juego {
     margin: 40px;
@@ -46,7 +59,7 @@
     width: 40vw;
     color: #161a38;
 }
-.descripcion-juego__titulo, .card-foto__titulo {
+.descripcion-juego__titulo, .card-foto__titulo, .contacto__titulo {
     font-family: 'Nunito', sans-serif;
     font-size: 60px;
     font-weight: 800;
@@ -66,7 +79,7 @@
 .boton {
     display: inline-block;
     border-width: 0;
-    background-color: #031493;
+    background-color: #2332a0;
     color: #fff;
     padding: 20px 0;
     border-radius: 50px;
@@ -76,7 +89,7 @@
     margin: 20px 0;
 }
 .boton:hover {
-    background-color: #031493dd;
+    background-color: #2332a0dd;
 }
 .boton:active {
     transform: translateY(4px);
@@ -84,6 +97,8 @@
 .contenido--nuevo {
     display: flex;
     height: 100vh;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .contenido--nuevo__video {
     height: calc(100% - 20px);
@@ -97,15 +112,16 @@
     justify-content: center;
     color: #161a38;
 }
-.card-foto__foto {
+.card-foto__foto, .card-foto__foto--derecha {
     height: 35vw;
     width: 35vw;
     background-size: cover;
     border-radius: 40px;
 }
-.card-foto__descripcion, .card-foto__descripcion--izquierda {
+.card-foto__descripcion {
     width: 40vw;
-    height: 25vw;
+    height: max-content;
+    padding-bottom: 20px;
     box-shadow: 0 0 10px #0007;
     border-radius: 50px;
     position: relative;
@@ -113,12 +129,14 @@
     background-color: #fff;
     text-align: center;
     padding: 30px;
-    transition: transform .5s, background-color .5s;
+    transition: transform .3s, background-color .3s;
+    z-index: 2000;
 }
-.card-foto__descripcion--izquierda {
-    left: 50px;
+.card-foto__foto--derecha {
+    position: relative;
+    left: -100px;
 }
-.card-foto__descripcion:hover, .card-foto__descripcion--izquierda:hover {
+.card-foto__descripcion:hover {
     background-color: #f3f3f3;
     transform: scale(1.02);
 }
@@ -129,6 +147,104 @@
     padding: 20px;
     text-align: center;
     font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+.footer__img {
+    height: 20px;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 40vw;
+}
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 10px;
+}
+.footer__titulo {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.footer__link {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 25px;
+}
+.footer__link:hover {
+    color: #bbb;
+}
+.contacto__input, .contacto__textarea {
+    display: inline-block;
+    border: 2px solid #161a38;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 300px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.contacto__input:focus, .contacto__textarea:focus {
+    border-color: #2332a0;
+    outline: none;
+    background-color: #f9f9fa;
+}
+.contacto__textarea {
+    height: 100px;
+    resize: vertical;
+}
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacto {
+    color: #161a38;
+}
+.contacto__titulo {
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+.contacto__input--submit {
+    padding: 10px 20px;
+    background-color:#2332a0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin: 10px 0;
+}
+.contacto__input--submit:hover {
+    background-color: #2332a0dd;
+}
+.menu-boton {
+    font-size: 25px;
+    color: #161a38;
+    margin-left: auto;
+}
+.nav--movil__contenedor {
+    right: -200px;
+    position: fixed;
+    top: 70px;
+    height: calc(100vh - 70px);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    box-shadow: 0 0 10px #0007;
+    transition: right .3s ease;
+}
+.nav--movil__listitem {
+    font-size: 30px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: underline 1px #161a38;
+    margin: 10px 40px;
+    text-align: right;
 }
 #anotador-truco-foto {
     background-image: url('../Imagenes/foto-anotador-truco.png');
@@ -136,3 +252,61 @@
 #desafio-diario-foto {
     background-image: url('../Imagenes/foto-desafio-diario.png');
 }
+@media (max-width: 1030px) {
+
+    .card-foto__foto, .card-foto__foto--derecha {
+        width: 80vw;
+        height: 80vw;
+        position: relative;
+    }
+
+    .card-foto__descripcion {
+        width: 80vw;
+        left: 0;
+        top: -50px;
+    }
+
+    .card-foto__foto--derecha{
+        top: -100px;
+        left: 0;
+    }
+
+    .card-foto {
+        flex-direction: column;
+    }
+
+    .card-foto__span {
+        font-size: 30px;
+    }
+}
+@media (max-width: 800px) {
+
+    .contenido--nuevo__video {
+        display: none;
+    }
+
+    .descripcion-juego {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .descripcion-juego__titulo {
+        font-size: 70px;
+    }
+
+    .descripcion-juego__span {
+        font-size: 30px;
+    }
+
+    .boton {
+        font-size: 30px;
+        width: 80vw;
+        max-width: 80%;
+        padding: 20px;
+    }
+    
+    .card-foto__span {
+        font-size: 25px;
+    }
+}
+  
