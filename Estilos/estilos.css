@@ -3,7 +3,7 @@
     background-color: #333c80;
     color: #fff;
 }
-*{
+body, html {
     overflow-x: hidden;
 }
 .body {
