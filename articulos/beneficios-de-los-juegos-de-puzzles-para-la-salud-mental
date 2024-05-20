@@ -3,7 +3,7 @@
             <p class="articulo__tag">puzzles</p>
         </div>
             <h1>Beneficios de los Juegos de Puzzles para la Salud Mental</h1>
-            <img src="./anxiety.jpg" alt="" class="imagen-clasic">
+            <img src="carpeta-articulo/anxiety.jpg" alt="" class="imagen-clasic">
             <br>
             <p class="articulo__tag">por Eli Fainerman. 17 de mayo de 2024.</p>
             <br>
@@ -35,14 +35,14 @@
                 Este
                 tipo de juego también puede mejorar nuestro estado de ánimo, ya que nos brinda una sensación de logro y
                 satisfacción al completar cada nivel.
-                <br><img src="./health.jpg" alt="" class="imagen-clasic">
-                <br><img src="./understanding.jpg" alt="" class="imagen-clasic"><br>
+                <br><img src="carpeta-articulo/health.jpg" alt="" class="imagen-clasic">
+                <br><img src="carpeta-articulo/understanding.jpg" alt="" class="imagen-clasic"><br>
                 La sensación de progresar y resolver problemas nos da un impulso de
                 felicidad y bienestar.
             </p>
             
             <h2>Letras Fugitivas: Un Desafío Único y Divertido</h2>
-            <img src="./banner.png" alt="" class="imagen-clasic"><br>
+            <img src="carpeta-articulo/banner.png" alt="" class="imagen-clasic"><br>
             <p>Uno de los juegos de puzzles más destacados es <a class="link"
                     href="https://inteligames.itch.io/letras-fugitivas" target="_blank">Letras Fugitivas</a>. Este juego
                 ofrece un desafío único a los
@@ -58,7 +58,7 @@
             
             <h2>Beneficios Duraderos de los Juegos de Puzzles</h2>
             <p>
-                <img src="./puzzle.jpg" alt="" class="imagen-clasic"><br>
+                <img src="carpeta-articulo/puzzle.jpg" alt="" class="imagen-clasic"><br>
                 Los juegos de puzzles son una tendencia en ascenso que promete beneficio duraderos para nuestra mente. 
                 Al incorporar estos juegos en nuestra rutina diaria, podemos disfrutar de una forma divertida de mantenernos mentalmente activos y cuidar nuestra salud emocional.
                 Los juegos de puzzles no solo nos desafían, sino que también nos brindan la oportunidad de desconectar, relajarnos y mejorar nuestro bienestar general.
