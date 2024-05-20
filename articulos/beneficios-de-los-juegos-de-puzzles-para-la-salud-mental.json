@@ -1,5 +1,5 @@
 {
-    html: `
+    "html": `
             <div class="cont-tags">
             <p class="articulo__tag">puzzles</p>
         </div>
@@ -65,6 +65,6 @@
                 Los juegos de puzzles no solo nos desafían, sino que también nos brindan la oportunidad de desconectar, relajarnos y mejorar nuestro bienestar general.
             </p>
 `,
-            nombre: "Beneficios de los Juegos de Puzzles para la Salud Mental",
-            info: "Mejora de la memoria, mayor capacidad de resolución de problemas, reducción de estrés y mejora del ánimo son algunos de los beneficios."
+            "nombre": "Beneficios de los Juegos de Puzzles para la Salud Mental",
+            "info": "Mejora de la memoria, mayor capacidad de resolución de problemas, reducción de estrés y mejora del ánimo son algunos de los beneficios."
 }
