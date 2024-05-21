@@ -1,5 +1,5 @@
-
-            <div class="cont-tags">
+{
+            "html": `<div class="cont-tags">
             <p class="articulo__tag">juegos de mesa</p>
         </div>
             <h1>Historia del Truco Uruguayo</h1>
@@ -30,4 +30,7 @@ Con el tiempo, el truco uruguayo se ha mantenido como un juego tradicional, pres
 <img src="carpeta-articulo/anotador-truco.png" alt="" class="imagen-clasic"><br>
 Para facilitar el seguimiento de los puntos y mejorar tu experiencia de juego, te recomendamos usar el <a
                     class="link" href="https://anotador-de-truco.netlify.app/" target="_blank">Anotador de Truco Uruguayo</a> online gratis de Inteli Games. Esta herramienta es perfecta para llevar un control preciso de las partidas y asegurarte de que no se pierda ningún detalle durante el juego.
-</p>
+</p>`
+            "nombre": "Historia del Truco Uruguayo",
+            "info": "¿Cómo el truco llegó a establecer su posición actual en la sociedad uruguaya?"
+}
