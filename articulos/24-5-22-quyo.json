@@ -34,6 +34,22 @@
                   <li><b>Comunes</b>: Cartas sin valor de pieza, pero con jerarquía intermedia.</li>
                 </ul>
             </p>
+
+            <h2>Acciones</h2>
+            <p>
+                <ul>
+                  <li><b>Gritar</b>: Decir "truco".</li>
+                  <li><b>Tocar</b>: Decir "envido".</li>
+                  <li><b>Cantar</b>: Decir "flor".</li>
+                  <li><b>Matar</b>: Tirar una carta mayor que las jugadas en la ronda.</li>
+                  <li><b>Ir a Alguien</b>: En juegos de equipo, tirar una carta baja para que un compañero juegue una carta mayor.</li>
+                  <li><b>Va Parda</b>: Empatar una ronda.</li>
+                  <li><b>Irse al Mazo</b>: Rendirse en una mano.</li>
+                  <li><b>Pasar</b>: No jugar el resto de las cartas en la mano, dejando que los compañeros continúen.</li>
+                  <li><b>Redondilla</b>: Rondas comunes de tres contra tres en juegos de equipos de seis.</li>
+                  <li><b>Pico a Pico</b>: Rondas de uno contra uno en juegos de equipos de seis.</li>
+                </ul>
+            </p>
 <h2>¿Cómo anotar la partida?</h2>
             <p>
 <img src="carpeta-articulo/anotador-truco.png" alt="" class="imagen-clasic"><br>
