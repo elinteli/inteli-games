@@ -1,6 +1,29 @@
-[
+[[
     "24-5-17-beal",
     "24-5-19-hiyo",
     "24-5-20-pola",
     "24-5-22-quyo"
+],
+{
+    "24-5-17-beal": [
+        "Beneficios de los Juegos de Puzzles para la Salud Mental",
+        "Mejora de la memoria, mayor capacidad de resolución de problemas, reducción de estrés y mejora del ánimo son algunos de los beneficios.",
+        "anxiety.jpg"
+    ],
+    "24-5-19-hiyo": [
+        "Historia del Truco Uruguayo",
+        "¿Cómo el truco se estableció en la cultura uruguaya?",
+        "playing-cards.jpg"
+    ],
+    "24-5-20-pola": [
+        "¿Por Qué el Truco se Juega con la Baraja Española?",
+        "El intercambio cultural del descubrimiento de américa introdújo la baraja española y sus juegos.",
+        "map.jpg"
+    ],
+    "24-5-22-quyo": [
+        "¿Que frases se usan en el truco uruguayo?",
+        "Glosario de expresiones, frases y señas que se usan el truco uruguayo.",
+        "deck-of-cards.jpg"
+    ]
+}
 ]
