@@ -1,0 +1,8 @@
+{
+    "html": "\n        <p class=\"articulo__tag-1\">etiqueta</p>\n        <h1>Ejemplo</h1>\n        <img class=\"imagen-clasic\" src=\"../Web Inteli Games/inteli-games/src/img/flag.jpg\" alt=\"Imagen de prueba\">\n        <p class=\"articulo__tag\">Por Nombre Apellido. Fecha.</p>\n        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut doloribus iste eum ipsam voluptas. Magnam, aut exercitationem a esse blanditiis ad, illum fugiat ipsam animi voluptas rerum fuga vel.</p>\n        <h2>Subtítulo</h2>\n        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut doloribus iste eum ipsam voluptas. Magnam, aut exercitationem a esse blanditiis ad, illum fugiat ipsam animi voluptas rerum fuga vel.</p>\n        <img class=\"imagen-clasic\" src=\"../Web Inteli Games/inteli-games/src/img/gaucho.jpg\" alt=\"Imagen de prueba\">\n    ",
+    "nombre": "Beneficios de los Juegos de Puzzles para la Salud Mental",
+    "info": "Mejora de la memoria, mayor capacidad de resolución de problemas, reducción de estrés y mejora del ánimo son algunos de los beneficios.",
+    "carpeta": "24-5-17-beal",
+    "portada": "anxiety.jpg",
+    "id": "24-5-17-beal"
+}
